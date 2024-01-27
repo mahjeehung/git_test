@@ -1,64 +1,28 @@
+let computerChoice;
+let playerChoice;
+
 function getComputerChoice() {
     let i = Math.floor(Math.random()*3);
     if (i==2){
-        return 'rock';
+        i = 'rock';
     }
     else if (i==1){
-        return 'paper';
+        i = 'paper'; 
     }
     else {
-        return 'scissors';
-    }}
+        i = 'scissors';
+    }
+    computerChoice = i
+};
 
-let computerChoice = function getComputerChoice() {
-    let i = Math.floor(Math.random()*3);
-    if (i==2){
-        return 'rock';
-    }
-    else if (i==1){
-        return 'paper';
-    }
-    else {
-        return 'scissors';
-    }
-}();
-(function getComputerChoice() {
-    let i = Math.floor(Math.random()*3);
-    if (i==2){
-        return 'rock';
-    }
-    else if (i==1){
-        return 'paper';
-    }
-    else {
-        return 'scissors';
-    }
-let computerChoice = i})();
-
-
-
-// let computerChoice = getComputerChoice();
-// function repeat(){
-//     let results = [];
-//     for (let r=0;r<100;r++)
-//     {results += getComputerChoice()}
-//     return results
-// }
 function getPlayerChoice(){
-    let playerChoice = prompt('rock,paper or scissors?').toLowerCase();
-    if (playerChoice != 'rock' && playerChoice != 'paper' && playerChoice != 'scissors'){
+    s = prompt('rock,paper or scissors?').toLowerCase();
+    if (s != 'rock' && s != 'paper' && s != 'scissors'){
         alert('what u doin');
         getPlayerChoice()
-    } else {alert(`you chose ${playerChoice}`)
+    } else {alert(`you chose ${s}`)
+    playerChoice = s;
     return playerChoice}}
-
-(function getPlayerChoice(){
-let playerChoice = prompt('rock,paper or scissors?').toLowerCase();
-if (playerChoice != 'rock' && playerChoice != 'paper' && playerChoice != 'scissors'){
-    alert('what u doin');
-    getPlayerChoice()
-} else {alert(`you chose ${playerChoice}`)
-return playerChoice}})()
 
 let totalWins = 0;
 let totalLosses = 0;
@@ -76,7 +40,7 @@ function tie(){
     alert(`It's a tie! Go again?`)
 }
 
-(function playRound(){
+function playRound(){
     if (playerChoice == 'rock'){
         if (computerChoice == 'rock'){tie()}
         else if (computerChoice == 'paper'){lose()}
@@ -94,6 +58,6 @@ function tie(){
     }
 getComputerChoice();
 getPlayerChoice();
-playRound()})()
+playRound()};
 
-//asmr
+playRound();
