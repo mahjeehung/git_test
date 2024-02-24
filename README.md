@@ -1,3 +1,3 @@
 # git_test
 
-Hello Odin!
+Hello Odin! These are my Odin Project assignment submissions!
