@@ -1,0 +1,47 @@
+[33mcommit 9932541ba18436b2f58b1a3eb15c3aa35da942b8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Sat Jan 27 12:44:17 2024 +0800
+
+    .
+
+[33mcommit 0d2e7b73a0df848ffbbede79418cd8a1c11c3f14[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Sat Jan 27 12:39:16 2024 +0800
+
+    this should make it work
+
+[33mcommit 68a3f903dd6a47ab33a3ffacb7210d6b390f8dec[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Sun Jan 21 14:37:12 2024 +0800
+
+    Just added a comment to test out GitHub commit
+
+[33mcommit 1bd92bce3d99d352e2d339de959007cf918b165c[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Sun Jan 21 14:33:43 2024 +0800
+
+    Solved the variable issues
+
+[33mcommit 300b91c75a2c6ef46ce87dab4d7f55ca51d72dad[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Sun Jan 21 13:52:12 2024 +0800
+
+    Already put up Rock Paper Scissors, however still not debugged for rewriting variables. HTML pending
+
+[33mcommit 3434ad32e3a307822cf28d73570649768142f425[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Wed Jan 3 14:33:14 2024 +0800
+
+    Edit README.md and hello_world.txt
+
+[33mcommit 46c50c406b7e0b3cbdd4e101d3bc701328d9aeb0[m
+Author: mahjeehung <mahjeehung@gmail.com>
+Date:   Wed Jan 3 14:28:15 2024 +0800
+
+    Add hello_world.txt
+
+[33mcommit 2e2a427e7a8ab2268831c4f862e7f6ff49b59ee8[m
+Author: mahjeehung <151704278+mahjeehung@users.noreply.github.com>
+Date:   Wed Jan 3 14:23:28 2024 +0800
+
+    Initial commit
